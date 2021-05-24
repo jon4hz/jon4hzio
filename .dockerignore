@@ -11,3 +11,5 @@ config.toml
 docker-compose.yml
 docker-compose.dev.yml
 Dockerfile
+LICENSE
+README.md
