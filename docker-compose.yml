@@ -1,0 +1,21 @@
+---
+version: '3.7'
+services:
+    jon4hzio:
+        image: jon4hz/jon4hzio
+        restart: unless-stopped
+        hostname: jon4hzio
+        container_name: jon4hzio
+        networks:
+            traefik_proxy:
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=traefik_proxy"
+            - "traefik.http.routers.jon4hzio.rule=Host(`jon4hz.io`)"
+            - "traefik.http.services.jon4hzio.loadbalancer.server.port=3000"
+            - "traefik.http.routers.jon4hzio.entrypoints=websecure"
+            - "traefik.http.routers.jon4hzio.tls.certResolver=primary"
+
+networks:
+    traefik_proxy:
+        external: true

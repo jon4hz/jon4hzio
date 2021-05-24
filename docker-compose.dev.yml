@@ -1,0 +1,12 @@
+---
+version: '3.7'
+services:
+    jon4hzio:
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        hostname: jon4hzio
+        container_name: jon4hzio
+        ports:
+            - 3000:3000

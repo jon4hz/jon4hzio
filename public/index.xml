@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jonahz.io</title>
+    <link>https://jon4hz.io/</link>
+    <description>Recent content on jonahz.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 24 May 2021 20:56:33 +0200</lastBuildDate><atom:link href="https://jon4hz.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Very First Post</title>
+      <link>https://jon4hz.io/posts/very-first-post/</link>
+      <pubDate>Mon, 24 May 2021 20:56:33 +0200</pubDate>
+      
+      <guid>https://jon4hz.io/posts/very-first-post/</guid>
+      <description>Maybe I&amp;rsquo;ll find some time in the next 100 years to actually write a post. But currently this is all I&amp;rsquo;m gonna do. Future post may include various topics in the field of IT and decentralisation.</description>
+    </item>
+    
+  </channel>
+</rss>
