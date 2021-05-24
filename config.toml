@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "jon4hz.io"
 theme = "hello-friend-ng"
 
+enableRobotsTXT = true
+
 [author]
   name = "Jonah"
 
