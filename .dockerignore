@@ -1,15 +1,1 @@
-./themes
-./static
-./layouts
-./.git
-./data
-./content
-./archetypes
-config.toml
-.gitmodules
-.github
-docker-compose.yml
-docker-compose.dev.yml
-Dockerfile
-LICENSE
-README.md
+./website/public

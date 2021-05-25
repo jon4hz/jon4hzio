@@ -10,7 +10,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "jonahz.io"
+    title = "jon4hz.io"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -19,7 +19,6 @@ enableRobotsTXT = true
       logoHomeLink = "/"
 
 [params]
- 
   enableThemeToggle = true
  
   [params.footer]
@@ -49,3 +48,23 @@ enableRobotsTXT = true
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
