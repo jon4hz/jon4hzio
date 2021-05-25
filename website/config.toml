@@ -15,11 +15,12 @@ enableRobotsTXT = true
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "$ ./hello_friend"
       logoHomeLink = "/"
 
 [params]
   enableThemeToggle = true
+  homeSubtitle = "I like computers, decentralization and blockchain"
  
   [params.footer]
     trademark = true
