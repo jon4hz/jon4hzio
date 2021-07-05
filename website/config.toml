@@ -1,7 +1,7 @@
 baseURL = "https://jon4hz.io/"
 languageCode = "en-us"
 title = "jon4hz.io"
-theme = "hello-friend-ng"
+theme = "hugo-theme-hello-friend-ng"
 
 enableRobotsTXT = true
 
