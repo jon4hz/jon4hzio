@@ -39,6 +39,10 @@ enableRobotsTXT = true
   [[params.social]]
     name = "telegram"
     url = "https://t.me/jon4hz"
+
+  [[params.social]]
+    name = "threema"
+    url = "https://threema.id/6HT6VJTE"
   
 [taxonomies]
     category = "blog"
