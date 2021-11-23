@@ -28,7 +28,7 @@ RUN ./hugo-install.sh
 RUN ./hugo 
 ######################################################################
 # runtime container
-FROM alpine
+FROM scratch
 COPY --from=server-builder /app/jon4hzio ./server/jon4hzio
 #COPY ./website/public ./website/public
 COPY --from=web-builder /app/public ./website/public
