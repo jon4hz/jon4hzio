@@ -25,10 +25,10 @@ COPY ./website/ .
 COPY hugo-install.sh .
 RUN ./hugo-install.sh
 # execute hugo
-RUN ./hugo -D
+RUN ./hugo 
 ######################################################################
 # runtime container
-FROM scratch
+FROM alpine
 COPY --from=server-builder /app/jon4hzio ./server/jon4hzio
 #COPY ./website/public ./website/public
 COPY --from=web-builder /app/public ./website/public
