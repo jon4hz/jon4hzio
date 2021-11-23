@@ -20,7 +20,7 @@ enableRobotsTXT = true
 
 [params]
   enableThemeToggle = true
-  homeSubtitle = "I like computers, decentralization and blockchain"
+  homeSubtitle = "I like computers, decentralization and open source"
  
   [params.footer]
     trademark = true
@@ -48,15 +48,16 @@ enableRobotsTXT = true
     category = "blog"
     tag      = "tags"
     series   = "series"
-  
-[[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
-[[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects"
+
+[menu]
+  [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+  [[menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      url = "/projects"
 
 [privacy]
   [privacy.disqus]
