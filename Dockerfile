@@ -25,7 +25,7 @@ COPY ./website/ .
 COPY hugo-install.sh .
 RUN ./hugo-install.sh
 # execute hugo
-RUN ./hugo -D
+RUN ./hugo
 ######################################################################
 # runtime container
 FROM scratch
