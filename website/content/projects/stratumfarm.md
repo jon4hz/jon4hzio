@@ -14,4 +14,4 @@ Since the mining pool whalesburg.com went bankrupt in June, I have been working 
 My tasks in this project are the following:
 - Server provisioning 
 - Automating boring tasks
-- CI/CD deployment of various applications
+- CI/CD management for various applications
